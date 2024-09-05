@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.logo h1 {
+    color: #f44;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.auth-buttons button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: #333;
+}
+
+.auth-buttons .login {
+    border: 1px solid #333;
+}
+
+.auth-buttons .sign-in {
+    background-color: #f44;
+    color: #fff;
+}
+
+.order-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-info {
+    max-width: 50%;
+}
+
+.order-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.order-info span {
+    color: #f44;
+}
+
+.order-info p {
+    margin-bottom: 20px;
+}
+
+.order-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.quantity-selector {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.quantity-selector button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.quantity-selector span {
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.buy-now {
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.food-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.food-options {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.food-item {
+    text-align: center;
+}
+
+.food-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.food-item p {
+    margin-top: 10px;
+}
+
+.food-item span {
+    color: #f44;
+    font-weight: bold;
+}
